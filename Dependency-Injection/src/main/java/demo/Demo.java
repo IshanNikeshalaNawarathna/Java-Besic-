@@ -38,6 +38,10 @@ public class Demo {
         Car car = new Car(engine);
         car.drive();
 
+        Engine engine2 = new PetrolEngine();
+        Car car2 = new Car(engine2);
+        car2.drive();
+
 
     }
 
